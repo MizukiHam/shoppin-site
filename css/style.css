@@ -468,11 +468,13 @@ input[type="text"] {
       justify-content: space-between; }
     #products .detail_sp {
       display: none; } }
-@media (max-width: 549px) {
+@media (max-width: 550px) {
   #products #breadcrumb_wrap {
     padding: 0 6%; }
   #products .detail_pc {
     display: none; }
+  #products #detail-btn input {
+    margin: auto; }
   #products #items, #products #recently_view, #products #guide, #products #menu_top, #products #footer {
     padding: 0 6%; } }
 #products #items {

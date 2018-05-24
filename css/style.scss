@@ -801,7 +801,7 @@ input[type="text"]{
         
     }
     
-    @media(max-width: 549px){
+    @media(max-width: 550px){
         #breadcrumb_wrap{
             padding: 0 6%;
         }
@@ -810,7 +810,9 @@ input[type="text"]{
             display:none;
         }
         
-        
+        #detail-btn input{
+            margin: auto;
+        }
 
         
         #items,#recently_view,#guide,#menu_top,#footer    {
