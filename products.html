@@ -97,21 +97,23 @@
                             <div class="item_num">fa001-91</div>
                         </div>
                         <hr>
-                        <div id="display_img">
-                            <img src="images/products/pro_img_01.jpg" alt="">
+                        <div class="disp_wrap">
+                            <div id="display_img">
+                                <img src="images/products/pro_img_01.jpg" alt="">
+                            </div>
+                            <ul id="list_img">
+                                 <li><img src="images/products/pro_img_01.jpg" alt=""></li>
+                                 <li><img src="images/products/pro_img_02.jpg" alt=""></li>
+                                 <li><img src="images/products/pro_img_03.jpg" alt=""></li>
+                                 <li><img src="images/products/pro_img_04.jpg" alt=""></li>
+                                 <li><img src="images/products/pro_img_05.jpg" alt=""></li>
+                                 <li></li>
+                                 <li></li>
+                                 <li></li>
+                                 <li></li>
+                                 <li></li>
+                            </ul>
                         </div>
-                        <ul id="list_img">
-                             <li><img src="images/products/pro_img_01.jpg" alt=""></li>
-                             <li><img src="images/products/pro_img_02.jpg" alt=""></li>
-                             <li><img src="images/products/pro_img_03.jpg" alt=""></li>
-                             <li><img src="images/products/pro_img_04.jpg" alt=""></li>
-                             <li><img src="images/products/pro_img_05.jpg" alt=""></li>
-                             <li></li>
-                             <li></li>
-                             <li></li>
-                             <li></li>
-                             <li></li>
-                        </ul>
                         <hr>
                         <div class="title color_table"><img src="images/products/title_color.png"></div>
                             <form>
@@ -124,8 +126,14 @@
                                         </tr>
                                         <tr>
                                             <th class="top-colum">サイズ</th>
-                                            <td><input type="checkbox" name="color1" value="color1"/></td>
-                                            <td><input type="checkbox" name="color2" value="color2"/></td>
+                                            <td>
+                                                <input type="checkbox" name="color1" id="color1" checked/>
+                                                <label for="" id="color1"></label>
+                                            </td>
+                                            <td>
+                                                <input type="checkbox" name="color2" value="color2" checked/>
+                                                <label for="" id="color1"></label>
+                                            </td>
                                         </tr>
                                     </table>
                                 </div>
@@ -155,7 +163,7 @@
                                     <!--detail-sp end-->
                                     
                                     <div id="detail-btn">
-                                        <input type="submit" alt="add" value="">
+                                        <input type="submit" alt="add" value="" checked>
                                     </div>
                                     
                                     
